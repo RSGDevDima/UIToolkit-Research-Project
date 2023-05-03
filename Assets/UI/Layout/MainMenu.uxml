@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=f4084b800cca14145ab6072d490ba3c6&amp;type=3#styles" />
+    <!--    <Style src="project://database/Assets/UI/darkTheme.uss?fileID=7433441132597879392&amp;guid=801426f130f80c24daeca7f530acb865&amp;type=3#darkTheme" />-->
+    
+    <ui:VisualElement name="main-menu" class="background">
+        <ui:VisualElement name="main-menu_content" class="content-holder">
+            <ui:VisualElement name="main-menu_container" >
+                <ui:VisualElement name="main-menu_logo" class="logo-image mb-20" />
+                <ui:Button name="main-menu_start-game" text="Start" display-tooltip-when-elided="true" class="button mb-10" />
+                <ui:Button name="main-menu_change-theme" text="Change theme" display-tooltip-when-elided="true" class="button mb-10" />
+                <ui:Button name="main-menu_exit" text="Exit" display-tooltip-when-elided="true" class="button mb-10" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

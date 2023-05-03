@@ -1,0 +1,107 @@
+.button {
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: dimgray;
+    border-width: 4px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 44px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.button:active {
+    background-color: rgb(0, 0, 0);
+}
+
+.dark .button{
+    background-color: rgba(255, 255, 255, 0.05);
+    color: black;
+}
+
+.dark .button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dark .button:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.label{
+    -unity-text-align: middle-center;
+    font-size: 44px;
+
+}
+
+.logo-image {
+    background-image: url('project://database/Assets/Sprites/logo.png?fileID=2800000&guid=c462e906e3ba16f4396b088861c9e89a&type=3#logo');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+#main-menu_logo {
+    width: 100%;
+    height: 200px;
+}
+
+#levels-menu_logo {
+    width: 100%;
+    height: 150px;
+}
+
+.background {
+    position: absolute;
+    background-image: url('project://database/Assets/Sprites/background.png?fileID=2800000&guid=b88140b727819954f8444fd7d72e4684&type=3#background');
+    width: 100%;
+    height: 100%;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.dark .background {
+    background-image: url('project://database/Assets/Sprites/background-night.jpg?fileID=2800000&guid=9919479b8a157f14ca24abc4953c2dbf&type=3#background-night');
+}
+
+#main-menu_content {
+    max-width: 680px;
+}
+
+#levels-menu_content {
+    max-width: 1080px;
+}
+
+.content-holder{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+}
+
+#main-menu_container, levels-menu_container {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}

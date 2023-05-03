@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+<Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=f4084b800cca14145ab6072d490ba3c6&amp;type=3#styles" />
+<ui:VisualElement name="levels-menu" class="background">
+    <ui:VisualElement name="levels-menu_content" class="content-holder">
+        <ui:VisualElement name="levels-menu_container">
+            <ui:VisualElement name="levels-menu_logo" class="logo-image mb-40" />
+            <ui:Label text="You clicked 10 times" name="levels-menu_amount_label" class="label mb-20"/>
+            <ui:Button text="Increse amount" name="levels-menu_increase-amount" class="button mb-20"/>        
+        </ui:VisualElement>
+        <ui:Button text="Go Back" name="go-back" class="button"/>
+    </ui:VisualElement>
+</ui:VisualElement>
+</ui:UXML>
+    
